@@ -1,42 +1,62 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+.linkpage{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.title h1{
+  color: #DD1F1E;
+  font-family: DynaPuff;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+}
+
+.title p{
+  color: #000;
+  font-family: "Titillium Web";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal; 
+  margin: 0;
+  justify-self: flex-end;
+}
+
+.buttons{
+  margin-top:77px ;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  margin-bottom: 53px;
+
+}
+
+.buttons button{
+  border-radius: 7px;
+  background: rgba(186, 4, 3, 0.77);
+  border: none;
+  height: 50px;
+  width: 188px;
+  color: #FFF;
   text-align: center;
+  font-family: "Titillium Web";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.hlogo{
+  align-self: flex-start;
+  margin-left: 35px;
+  margin-top: 50px;
+  margin-bottom:30px ;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
+.squid{
+  margin-bottom: 86px;
 }
